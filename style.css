@@ -28,6 +28,13 @@ footer {
     flex: 0 auto;
 }
 
+table, td {
+    border: 1px solid black;
+}
+td {
+    padding: 10px 20px 10px 10px;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -38,4 +45,8 @@ footer {
     height: 50px;
     display: flex;
     align-items: center;
+}
+
+.table {
+    margin-top: 25px;
 }
