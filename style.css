@@ -50,3 +50,19 @@ td {
 .table {
     margin-top: 25px;
 }
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: blue;
+}
