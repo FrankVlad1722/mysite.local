@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My project</title>
+    <title>Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,10 +16,18 @@
 
 <main>
     <div class="container">
-        <table class="table">
-            <tbody id="table-content">
-            </tbody>
-        </table>
+        <div class="form-container">
+            <form method="post" action="action.php">
+                <div>
+                    <label for="reverse_str">Введите строку</label>
+                    <br>
+                    <input type="text" id="reverse_str" name="reverse_str">
+                    <br>
+                    <br>
+                </div>
+                <button>Отправить</button>
+            </form>
+        </div>
     </div>
 </main>
 
@@ -27,9 +35,5 @@
     <div class="container">footer</div>
 </footer>
 
-<script src="main.js"></script>
-<script>
-    addTableContent();
-</script>
 </body>
 </html>

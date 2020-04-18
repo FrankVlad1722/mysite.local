@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My project</title>
+    <title>Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,10 +16,10 @@
 
 <main>
     <div class="container">
-        <table class="table">
-            <tbody id="table-content">
-            </tbody>
-        </table>
+        <a class="btn-return" href="lesson-3.html">Назад</a>
+        <br>
+        <br>
+        <?= implode(array_reverse(preg_split('//u', $_POST['reverse_str']))) ?>
     </div>
 </main>
 
@@ -27,9 +27,5 @@
     <div class="container">footer</div>
 </footer>
 
-<script src="main.js"></script>
-<script>
-    addTableContent();
-</script>
 </body>
 </html>
